@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.light {
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.dark {
+  background-color: #222;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+button,
+input {
+  padding: 8px 12px;
+  margin: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.light img,
+.dark img {
+  display: block;
+  max-width: 150px;
+  margin: 10px 0;
+}
+
+.light p,
+.dark p {
+  max-width: 500px;
+}
